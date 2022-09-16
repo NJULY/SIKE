@@ -168,6 +168,8 @@ class NFormerTrainer:
 
     def train(self):
         best_score = None
+        best_mrr = 0
+
         swa_num = 20
         top_hits1 = [0.] * swa_num
         top_idxs = [-1] * swa_num
@@ -197,7 +199,8 @@ class NFormerTrainer:
             test_mrr = np.sum(np.array(test_mrrs) * dataset_percent)
 
             # 更新最好的分数
-            if best_score is None or best_score['MRR'] < test_mrr:
+            if best_mrr < test_mrr:
+                best_mrr = test_mrr
                 best_score = test_scores
                 best_score['epoch'] = i
                 model_path = os.path.join(self.output_path, f'nformer.bin')
