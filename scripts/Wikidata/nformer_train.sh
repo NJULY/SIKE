@@ -1,0 +1,23 @@
+python nformer_train.py \
+   --task train \
+   --data_path datasets/DWY15K/Wikidata15K \
+   --output_path output/Wikidata \
+   --epoch 600 \
+   --batch_size 2048 \
+   --device cuda:3 \
+   --add_neighbors \
+   --neighbor_num 3 \
+   --kge_lr 5e-4 \
+   --kge_label_smoothing 0.8 \
+   --num_hidden_layers 5 \
+   --num_attention_heads 2 \
+   --input_dropout_prob 0.5 \
+   --context_dropout_prob 0.1 \
+   --attention_dropout_prob 0.1 \
+   --hidden_dropout_prob 0.1 \
+   --hidden_size 256 \
+   --intermediate_size 2048 \
+   --residual_dropout_prob 0.0 \
+   --initializer_range 0.02 \
+   --num_workers 32 \
+   --pin_memory True
