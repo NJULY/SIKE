@@ -1,0 +1,186 @@
+{
+    "http://schema.org/creator": {
+        "name": "creator",
+        "desc": "The creator/author of this CreativeWork. This is the same as the Author property for CreativeWork."
+    },
+    "http://schema.org/about": {
+        "name": "about",
+        "desc": "The subject matter of the content."
+    },
+    "http://schema.org/character": {
+        "name": "character",
+        "desc": "Fictional person connected with a creative work."
+    },
+    "http://schema.org/subEvent": {
+        "name": "sub event",
+        "desc": "An Event that is part of this event. For example, a conference event includes many presentations, each of which is a subEvent of the conference."
+    },
+    "http://schema.org/productionCompany": {
+        "name": "production company",
+        "desc": "The production company or studio responsible for the item e.g. series, video game, episode etc."
+    },
+    "http://schema.org/partOfSeason": {
+        "name": "part of season",
+        "desc": "The season to which this episode belongs."
+    },
+    "http://schema.org/birthPlace": {
+        "name": "birth place",
+        "desc": "The place where the person was born."
+    },
+    "http://schema.org/genre": {
+        "name": "genre",
+        "desc": "Genre of the creative work, broadcast channel or group."
+    },
+    "http://schema.org/founder": {
+        "name": "founder",
+        "desc": "A person who founded this organization."
+    },
+    "http://schema.org/givenName": {
+        "name": "given name",
+        "desc": "Given name. In the U.S., the first name of a Person."
+    },
+    "http://schema.org/memberOf": {
+        "name": "member of",
+        "desc": "An Organization (or ProgramMembership) to which this Person or Organization belongs."
+    },
+    "http://schema.org/honorificPrefix": {
+        "name": "honorific prefix",
+        "desc": "An honorific prefix preceding a Person's name such as Dr/Mrs/Mr."
+    },
+    "http://schema.org/award": {
+        "name": "award",
+        "desc": "An award won by or for this item."
+    },
+    "http://schema.org/foundingLocation": {
+        "name": "founding location",
+        "desc": "The place where the Organization was founded."
+    },
+    "http://schema.org/musicBy": {
+        "name": "music by",
+        "desc": "The composer of the soundtrack."
+    },
+    "http://schema.org/parentOrganization": {
+        "name": "parent organization",
+        "desc": "The larger organization that this organization is a subOrganization of, if any."
+    },
+    "http://schema.org/inLanguage": {
+        "name": "in language",
+        "desc": "The language of the content or performance or used in an action. Please use one of the language codes from the IETF BCP 47 standard. See also availableLanguage."
+    },
+    "http://schema.org/actor": {
+        "name": "actor",
+        "desc": "An actor, e.g. in tv, radio, movie, video games etc., or in an event. Actors can be associated with individual items or with a series, episode, clip."
+    },
+    "http://schema.org/superEvent": {
+        "name": "super event",
+        "desc": "An event that this event is a part of. For example, a collection of individual music performances might each have a music festival as their superEvent."
+    },
+    "http://schema.org/competitor": {
+        "name": "competitor",
+        "desc": "A competitor in a sports event."
+    },
+    "http://schema.org/sport": {
+        "name": "sport",
+        "desc": "A type of sport (e.g. Baseball)."
+    },
+    "http://schema.org/deathPlace": {
+        "name": "death place",
+        "desc": "The place where the person died."
+    },
+    "http://schema.org/containedInPlace": {
+        "name": "contained in place",
+        "desc": "The basic containment relation between a place and one that contains it."
+    },
+    "http://schema.org/subOrganization": {
+        "name": "sub organization",
+        "desc": "A relationship between two organizations where the first includes the second, e.g., as a subsidiary. See also: the more specific 'department' property."
+    },
+    "http://schema.org/author": {
+        "name": "author",
+        "desc": "The author of this content or rating. Please note that author is special in that HTML 5 provides a special mechanism for indicating authorship via the rel tag. That is equivalent to this and may be used interchangeably."
+    },
+    "http://schema.org/copyrightHolder": {
+        "name": "copyright holder",
+        "desc": "The party holding the legal copyright to the CreativeWork."
+    },
+    "http://schema.org/hasOccupation": {
+        "name": "has occupation",
+        "desc": "The Person's occupation. For past professions, use Role for expressing dates."
+    },
+    "http://schema.org/alumniOf": {
+        "name": "alumni of",
+        "desc": "An organization that the person is an alumni of."
+    },
+    "http://schema.org/partOfSeries": {
+        "name": "part of series",
+        "desc": "The series to which this episode or season belongs."
+    },
+    "http://schema.org/parent": {
+        "name": "parent",
+        "desc": "A parent of this person."
+    },
+    "http://schema.org/director": {
+        "name": "director",
+        "desc": "A director of e.g. tv, radio, movie, video gaming etc. content, or of an event. Directors can be associated with individual items or with a series, episode, clip."
+    },
+    "http://schema.org/spouse": {
+        "name": "spouse",
+        "desc": "The person's spouse."
+    },
+    "http://schema.org/isBasedOn": {
+        "name": "is based on",
+        "desc": "A resource from which this work is derived or from which it is a modification or adaption."
+    },
+    "http://schema.org/producer": {
+        "name": "producer",
+        "desc": "The person or organization who produced the work (e.g. music album, movie, tv/radio series etc.)."
+    },
+    "http://schema.org/isPartOf": {
+        "name": "is part of",
+        "desc": "Indicates an item or CreativeWork that this item, or CreativeWork (in some sense), is part of."
+    },
+    "http://schema.org/nationality": {
+        "name": "nationality",
+        "desc": "Nationality of the person."
+    },
+    "http://schema.org/hasPart": {
+        "name": "has part",
+        "desc": "Indicates an item or CreativeWork that is part of this item, or CreativeWork (in some sense)."
+    },
+    "http://schema.org/homeLocation": {
+        "name": "home location",
+        "desc": "A contact location for a person's residence."
+    },
+    "http://bioschemas.org/bioChemInteraction": {
+        "name": "bio chem interaction",
+        "desc": "This term is proposed for full integration into Schema.org, pending implementation feedback and adoption from applications and websites."
+    },
+    "http://schema.org/countryOfOrigin": {
+        "name": "country of origin",
+        "desc": "The country of origin of something, including products as well as creative works such as movie and TV content."
+    },
+    "http://schema.org/containsPlace": {
+        "name": "contains place",
+        "desc": "The basic containment relation between a place and another that it contains."
+    },
+    "http://schema.org/contentLocation": {
+        "name": "content location",
+        "desc": "The location depicted or described in the content. For example, the location in a photograph or painting."
+    },
+    "http://schema.org/familyName": {
+        "name": "family name",
+        "desc": "Family name. In the U.S., the last name of a Person."
+    },
+    "http://schema.org/location": {
+        "name": "location",
+        "desc": "The location of, for example, where an event is happening, where an organization is located, or where an action takes place."
+    },
+    "http://schema.org/children": {
+        "name": "children",
+        "desc": "A child of the person."
+    },
+    "http://schema.org/knowsLanguage": {
+        "name": "knows language",
+        "desc": "This term is proposed for full integration into Schema.org, pending implementation feedback and adoption from applications and websites."
+    }
+}
