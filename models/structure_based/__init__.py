@@ -1,2 +1,0 @@
-from .knowformer import Knowformer
-
