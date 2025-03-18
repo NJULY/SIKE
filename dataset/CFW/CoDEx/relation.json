@@ -1,0 +1,206 @@
+{
+    "P101": {
+        "name": "field of work",
+        "desc": ""
+    },
+    "P102": {
+        "name": "member of political party",
+        "desc": ""
+    },
+    "P1050": {
+        "name": "medical condition",
+        "desc": ""
+    },
+    "P1056": {
+        "name": "product or material produced",
+        "desc": ""
+    },
+    "P106": {
+        "name": "occupation",
+        "desc": ""
+    },
+    "P108": {
+        "name": "employer",
+        "desc": ""
+    },
+    "P112": {
+        "name": "founded by",
+        "desc": ""
+    },
+    "P113": {
+        "name": "airline hub",
+        "desc": ""
+    },
+    "P119": {
+        "name": "place of burial",
+        "desc": ""
+    },
+    "P1303": {
+        "name": "instrument",
+        "desc": ""
+    },
+    "P131": {
+        "name": "located in the administrative terroritorial entity",
+        "desc": ""
+    },
+    "P135": {
+        "name": "movement",
+        "desc": ""
+    },
+    "P136": {
+        "name": "genre",
+        "desc": ""
+    },
+    "P138": {
+        "name": "named after",
+        "desc": ""
+    },
+    "P140": {
+        "name": "religion",
+        "desc": ""
+    },
+    "P1412": {
+        "name": "languages spoken, written, or signed",
+        "desc": ""
+    },
+    "P159": {
+        "name": "headquarters location",
+        "desc": ""
+    },
+    "P161": {
+        "name": "cast member",
+        "desc": ""
+    },
+    "P17": {
+        "name": "country",
+        "desc": ""
+    },
+    "P172": {
+        "name": "ethnic group",
+        "desc": ""
+    },
+    "P19": {
+        "name": "place of birth",
+        "desc": ""
+    },
+    "P20": {
+        "name": "place of death",
+        "desc": ""
+    },
+    "P2283": {
+        "name": "uses",
+        "desc": ""
+    },
+    "P2348": {
+        "name": "time period",
+        "desc": ""
+    },
+    "P26": {
+        "name": "spouse",
+        "desc": ""
+    },
+    "P264": {
+        "name": "record label",
+        "desc": ""
+    },
+    "P27": {
+        "name": "country of citizenship",
+        "desc": ""
+    },
+    "P30": {
+        "name": "continent",
+        "desc": ""
+    },
+    "P3095": {
+        "name": "practiced by",
+        "desc": ""
+    },
+    "P3373": {
+        "name": "sibling",
+        "desc": ""
+    },
+    "P361": {
+        "name": "part of",
+        "desc": ""
+    },
+    "P37": {
+        "name": "official language",
+        "desc": ""
+    },
+    "P40": {
+        "name": "child",
+        "desc": ""
+    },
+    "P407": {
+        "name": "language of work or name",
+        "desc": ""
+    },
+    "P451": {
+        "name": "unmarried partner",
+        "desc": ""
+    },
+    "P452": {
+        "name": "industry",
+        "desc": ""
+    },
+    "P463": {
+        "name": "member of",
+        "desc": ""
+    },
+    "P495": {
+        "name": "country of origin",
+        "desc": ""
+    },
+    "P50": {
+        "name": "author",
+        "desc": ""
+    },
+    "P509": {
+        "name": "cause of death",
+        "desc": ""
+    },
+    "P530": {
+        "name": "diplomatic relation",
+        "desc": ""
+    },
+    "P54": {
+        "name": "member of sports team",
+        "desc": ""
+    },
+    "P551": {
+        "name": "residence",
+        "desc": ""
+    },
+    "P57": {
+        "name": "director",
+        "desc": ""
+    },
+    "P641": {
+        "name": "sport",
+        "desc": ""
+    },
+    "P69": {
+        "name": "educated at",
+        "desc": ""
+    },
+    "P737": {
+        "name": "influenced by",
+        "desc": ""
+    },
+    "P740": {
+        "name": "location of formation",
+        "desc": ""
+    },
+    "P749": {
+        "name": "parent organization",
+        "desc": ""
+    },
+    "P780": {
+        "name": "symptoms",
+        "desc": ""
+    },
+    "P840": {
+        "name": "narrative location",
+        "desc": ""
+    }
+}

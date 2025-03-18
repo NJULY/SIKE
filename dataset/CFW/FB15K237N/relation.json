@@ -1,0 +1,374 @@
+{
+    "/award/award_category/category_of": {
+        "name": "category of",
+        "desc": ""
+    },
+    "/award/award_category/disciplines_or_subjects": {
+        "name": "disciplines or subjects",
+        "desc": ""
+    },
+    "/base/aareas/schema/administrative_area/administrative_area_type": {
+        "name": "administrative area type",
+        "desc": ""
+    },
+    "/base/aareas/schema/administrative_area/administrative_parent": {
+        "name": "administrative parent",
+        "desc": ""
+    },
+    "/base/aareas/schema/administrative_area/capital": {
+        "name": "capital",
+        "desc": ""
+    },
+    "/base/americancomedy/celebrity_impressionist/celebrities_impersonated": {
+        "name": "celebrities impersonated",
+        "desc": ""
+    },
+    "/base/biblioness/bibs_location/country": {
+        "name": "country",
+        "desc": ""
+    },
+    "/base/biblioness/bibs_location/state": {
+        "name": "state",
+        "desc": ""
+    },
+    "/base/culturalevent/event/entity_involved": {
+        "name": "entity involved",
+        "desc": ""
+    },
+    "/base/eating/practicer_of_diet/diet": {
+        "name": "diet",
+        "desc": ""
+    },
+    "/base/locations/continents/countries_within": {
+        "name": "countries within",
+        "desc": ""
+    },
+    "/broadcast/content/artist": {
+        "name": "artist",
+        "desc": ""
+    },
+    "/business/business_operation/industry": {
+        "name": "industry",
+        "desc": ""
+    },
+    "/dataworld/gardening_hint/split_to": {
+        "name": "split to",
+        "desc": ""
+    },
+    "/education/educational_institution/campuses": {
+        "name": "campuses",
+        "desc": ""
+    },
+    "/education/educational_institution/colors": {
+        "name": "colors",
+        "desc": ""
+    },
+    "/education/educational_institution/school_type": {
+        "name": "school type",
+        "desc": ""
+    },
+    "/education/educational_institution_campus/educational_institution": {
+        "name": "educational institution",
+        "desc": ""
+    },
+    "/education/university/fraternities_and_sororities": {
+        "name": "fraternities and sororities",
+        "desc": ""
+    },
+    "/film/director/film": {
+        "name": "film",
+        "desc": ""
+    },
+    "/film/film/cinematography": {
+        "name": "cinematography",
+        "desc": ""
+    },
+    "/film/film/costume_design_by": {
+        "name": "costume design by",
+        "desc": ""
+    },
+    "/film/film/country": {
+        "name": "country",
+        "desc": ""
+    },
+    "/film/film/edited_by": {
+        "name": "edited by",
+        "desc": ""
+    },
+    "/film/film/executive_produced_by": {
+        "name": "executive produced by",
+        "desc": ""
+    },
+    "/film/film/featured_film_locations": {
+        "name": "featured film locations",
+        "desc": ""
+    },
+    "/film/film/film_art_direction_by": {
+        "name": "film art direction by",
+        "desc": ""
+    },
+    "/film/film/film_festivals": {
+        "name": "film festivals",
+        "desc": ""
+    },
+    "/film/film/film_format": {
+        "name": "film format",
+        "desc": ""
+    },
+    "/film/film/film_production_design_by": {
+        "name": "film production design by",
+        "desc": ""
+    },
+    "/film/film/genre": {
+        "name": "genre",
+        "desc": ""
+    },
+    "/film/film/language": {
+        "name": "language",
+        "desc": ""
+    },
+    "/film/film/music": {
+        "name": "music",
+        "desc": ""
+    },
+    "/film/film/prequel": {
+        "name": "prequel",
+        "desc": ""
+    },
+    "/film/film/produced_by": {
+        "name": "produced by",
+        "desc": ""
+    },
+    "/film/film/production_companies": {
+        "name": "production companies",
+        "desc": ""
+    },
+    "/film/film/story_by": {
+        "name": "story by",
+        "desc": ""
+    },
+    "/film/film/written_by": {
+        "name": "written by",
+        "desc": ""
+    },
+    "/film/film_set_designer/film_sets_designed": {
+        "name": "film sets designed",
+        "desc": ""
+    },
+    "/film/film_subject/films": {
+        "name": "films",
+        "desc": ""
+    },
+    "/influence/influence_node/influenced_by": {
+        "name": "influenced by",
+        "desc": ""
+    },
+    "/language/human_language/countries_spoken_in": {
+        "name": "countries spoken in",
+        "desc": ""
+    },
+    "/location/administrative_division/country": {
+        "name": "country",
+        "desc": ""
+    },
+    "/location/administrative_division/first_level_division_of": {
+        "name": "first level division of",
+        "desc": ""
+    },
+    "/location/country/capital": {
+        "name": "capital",
+        "desc": ""
+    },
+    "/location/country/form_of_government": {
+        "name": "form of government",
+        "desc": ""
+    },
+    "/location/country/official_language": {
+        "name": "official language",
+        "desc": ""
+    },
+    "/location/country/second_level_divisions": {
+        "name": "second level divisions",
+        "desc": ""
+    },
+    "/location/hud_county_place/county": {
+        "name": "county",
+        "desc": ""
+    },
+    "/location/hud_county_place/place": {
+        "name": "place",
+        "desc": ""
+    },
+    "/location/location/contains": {
+        "name": "contains",
+        "desc": ""
+    },
+    "/location/location/partially_contains": {
+        "name": "partially contains",
+        "desc": ""
+    },
+    "/location/location/time_zones": {
+        "name": "time zones",
+        "desc": ""
+    },
+    "/location/us_county/county_seat": {
+        "name": "county seat",
+        "desc": ""
+    },
+    "/media_common/netflix_genre/titles": {
+        "name": "titles",
+        "desc": ""
+    },
+    "/medicine/disease/notable_people_with_this_condition": {
+        "name": "notable people with this condition",
+        "desc": ""
+    },
+    "/medicine/disease/risk_factors": {
+        "name": "risk factors",
+        "desc": ""
+    },
+    "/medicine/symptom/symptom_of": {
+        "name": "symptom of",
+        "desc": ""
+    },
+    "/music/artist/origin": {
+        "name": "origin",
+        "desc": ""
+    },
+    "/music/genre/artists": {
+        "name": "artists",
+        "desc": ""
+    },
+    "/music/genre/parent_genre": {
+        "name": "parent genre",
+        "desc": ""
+    },
+    "/music/instrument/family": {
+        "name": "family",
+        "desc": ""
+    },
+    "/music/instrument/instrumentalists": {
+        "name": "instrumentalists",
+        "desc": ""
+    },
+    "/music/record_label/artist": {
+        "name": "artist",
+        "desc": ""
+    },
+    "/olympics/olympic_games/participating_countries": {
+        "name": "participating countries",
+        "desc": ""
+    },
+    "/olympics/olympic_games/sports": {
+        "name": "sports",
+        "desc": ""
+    },
+    "/organization/organization/place_founded": {
+        "name": "place founded",
+        "desc": ""
+    },
+    "/organization/organization_founder/organizations_founded": {
+        "name": "organizations founded",
+        "desc": ""
+    },
+    "/people/cause_of_death/people": {
+        "name": "people",
+        "desc": ""
+    },
+    "/people/deceased_person/place_of_burial": {
+        "name": "place of burial",
+        "desc": ""
+    },
+    "/people/deceased_person/place_of_death": {
+        "name": "place of death",
+        "desc": ""
+    },
+    "/people/ethnicity/geographic_distribution": {
+        "name": "geographic distribution",
+        "desc": ""
+    },
+    "/people/ethnicity/languages_spoken": {
+        "name": "languages spoken",
+        "desc": ""
+    },
+    "/people/ethnicity/people": {
+        "name": "people",
+        "desc": ""
+    },
+    "/people/person/gender": {
+        "name": "gender",
+        "desc": ""
+    },
+    "/people/person/languages": {
+        "name": "languages",
+        "desc": ""
+    },
+    "/people/person/nationality": {
+        "name": "nationality",
+        "desc": ""
+    },
+    "/people/person/place_of_birth": {
+        "name": "place of birth",
+        "desc": ""
+    },
+    "/people/person/profession": {
+        "name": "profession",
+        "desc": ""
+    },
+    "/people/person/religion": {
+        "name": "religion",
+        "desc": ""
+    },
+    "/people/profession/specialization_of": {
+        "name": "specialization of",
+        "desc": ""
+    },
+    "/sports/sports_team/colors": {
+        "name": "colors",
+        "desc": ""
+    },
+    "/sports/sports_team/sport": {
+        "name": "sport",
+        "desc": ""
+    },
+    "/sports/sports_team_location/teams": {
+        "name": "teams",
+        "desc": ""
+    },
+    "/time/event/instance_of_recurring_event": {
+        "name": "instance of recurring event",
+        "desc": ""
+    },
+    "/time/event/locations": {
+        "name": "locations",
+        "desc": ""
+    },
+    "/tv/tv_program/country_of_origin": {
+        "name": "country of origin",
+        "desc": ""
+    },
+    "/tv/tv_program/genre": {
+        "name": "genre",
+        "desc": ""
+    },
+    "/tv/tv_program/languages": {
+        "name": "languages",
+        "desc": ""
+    },
+    "/tv/tv_program/program_creator": {
+        "name": "program creator",
+        "desc": ""
+    },
+    "/user/alexander/philosophy/philosopher/interests": {
+        "name": "interests",
+        "desc": ""
+    },
+    "/user/jg/default_domain/olympic_games/sports": {
+        "name": "sports",
+        "desc": ""
+    },
+    "/user/ktrueman/default_domain/international_organization/member_states": {
+        "name": "member states",
+        "desc": ""
+    }
+}

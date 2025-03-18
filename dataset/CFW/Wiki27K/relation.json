@@ -1,0 +1,250 @@
+{
+    "W_P1001": {
+        "name": "applies to jurisdiction",
+        "desc": ""
+    },
+    "W_P101": {
+        "name": "field of work",
+        "desc": ""
+    },
+    "W_P102": {
+        "name": "member of political party",
+        "desc": ""
+    },
+    "W_P1050": {
+        "name": "medical condition",
+        "desc": ""
+    },
+    "W_P1056": {
+        "name": "product or material produced",
+        "desc": ""
+    },
+    "W_P106": {
+        "name": "occupation",
+        "desc": ""
+    },
+    "W_P108": {
+        "name": "employer",
+        "desc": ""
+    },
+    "W_P112": {
+        "name": "founded by",
+        "desc": ""
+    },
+    "W_P113": {
+        "name": "airline hub",
+        "desc": ""
+    },
+    "W_P119": {
+        "name": "place of burial",
+        "desc": ""
+    },
+    "W_P127": {
+        "name": "owned by",
+        "desc": ""
+    },
+    "W_P131": {
+        "name": "located in the administrative territorial entity",
+        "desc": ""
+    },
+    "W_P135": {
+        "name": "movement",
+        "desc": ""
+    },
+    "W_P136": {
+        "name": "genre",
+        "desc": ""
+    },
+    "W_P1376": {
+        "name": "capital of",
+        "desc": ""
+    },
+    "W_P138": {
+        "name": "named after",
+        "desc": ""
+    },
+    "W_P140": {
+        "name": "religion",
+        "desc": ""
+    },
+    "W_P1412": {
+        "name": "languages spoken, written or signed",
+        "desc": ""
+    },
+    "W_P159": {
+        "name": "headquarters location",
+        "desc": ""
+    },
+    "W_P161": {
+        "name": "cast member",
+        "desc": ""
+    },
+    "W_P166": {
+        "name": "award received",
+        "desc": ""
+    },
+    "W_P17": {
+        "name": "country",
+        "desc": ""
+    },
+    "W_P172": {
+        "name": "ethnic group",
+        "desc": ""
+    },
+    "W_P178": {
+        "name": "developer",
+        "desc": ""
+    },
+    "W_P19": {
+        "name": "place of birth",
+        "desc": ""
+    },
+    "W_P190": {
+        "name": "twinned administrative body",
+        "desc": ""
+    },
+    "W_P20": {
+        "name": "place of death",
+        "desc": ""
+    },
+    "W_P2283": {
+        "name": "uses",
+        "desc": ""
+    },
+    "W_P2348": {
+        "name": "time period",
+        "desc": ""
+    },
+    "W_P26": {
+        "name": "spouse",
+        "desc": ""
+    },
+    "W_P264": {
+        "name": "record label",
+        "desc": ""
+    },
+    "W_P27": {
+        "name": "country of citizenship",
+        "desc": ""
+    },
+    "W_P276": {
+        "name": "location",
+        "desc": ""
+    },
+    "W_P30": {
+        "name": "continent",
+        "desc": ""
+    },
+    "W_P3095": {
+        "name": "practiced by",
+        "desc": ""
+    },
+    "W_P3373": {
+        "name": "sibling",
+        "desc": ""
+    },
+    "W_P36": {
+        "name": "capital",
+        "desc": ""
+    },
+    "W_P364": {
+        "name": "original language of film or TV show",
+        "desc": ""
+    },
+    "W_P37": {
+        "name": "official language",
+        "desc": ""
+    },
+    "W_P39": {
+        "name": "position held",
+        "desc": ""
+    },
+    "W_P40": {
+        "name": "child",
+        "desc": ""
+    },
+    "W_P407": {
+        "name": "language of work or name",
+        "desc": ""
+    },
+    "W_P449": {
+        "name": "original broadcaster",
+        "desc": ""
+    },
+    "W_P452": {
+        "name": "industry",
+        "desc": ""
+    },
+    "W_P463": {
+        "name": "member of",
+        "desc": ""
+    },
+    "W_P47": {
+        "name": "shares border with",
+        "desc": ""
+    },
+    "W_P495": {
+        "name": "country of origin",
+        "desc": ""
+    },
+    "W_P50": {
+        "name": "author",
+        "desc": ""
+    },
+    "W_P509": {
+        "name": "cause of death",
+        "desc": ""
+    },
+    "W_P527": {
+        "name": "has part",
+        "desc": ""
+    },
+    "W_P530": {
+        "name": "diplomatic relation",
+        "desc": ""
+    },
+    "W_P54": {
+        "name": "member of sports team",
+        "desc": ""
+    },
+    "W_P551": {
+        "name": "residence",
+        "desc": ""
+    },
+    "W_P57": {
+        "name": "director",
+        "desc": ""
+    },
+    "W_P641": {
+        "name": "sport",
+        "desc": ""
+    },
+    "W_P69": {
+        "name": "educated at",
+        "desc": ""
+    },
+    "W_P737": {
+        "name": "influenced by",
+        "desc": ""
+    },
+    "W_P740": {
+        "name": "location of formation",
+        "desc": ""
+    },
+    "W_P749": {
+        "name": "parent organization",
+        "desc": ""
+    },
+    "W_P780": {
+        "name": "symptoms",
+        "desc": ""
+    },
+    "W_P840": {
+        "name": "narrative location",
+        "desc": ""
+    },
+    "W_P937": {
+        "name": "work location",
+        "desc": ""
+    }
+}
