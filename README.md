@@ -18,18 +18,36 @@ The pre-trained language model we used is downloaded at [here](https://huggingfa
 We denote the paths for best models saved in `Step{K}` as `MODEL_PATH{K}`.
 We set the `adapter_hidden_size` to 128, 'ea_t` to 0.999, `batch_size` to 512, `early_stop` to 5, `max_seq_length` to 64, and 'label_smoothing' to 0.8.
 
-`Step1` Train the model on DBpedia15K without knowledge transfer.
+`Step1` Train the model on DBpedia15K.
 > python train.py --kg1 DBpedia15K --embedding_lr 2e-3 --adapter_lr 1e-3 --epoch 20
 
-`Step2` Train the model on Wikidata15K with forward knowledge transfer from DBpedia15K.
+`Step2` Train the model on Wikidata15K with forward data fusion from DBpedia15K.
 > python train.py --model_path MODEL_PATH1 --kg1 Wikidata15K --kg0 DBpedia15K --embedding_lr 1e-3 --adapter_lr 1e-3 --alpha 1e4 --epoch 40
 
-`Step3` Train the model on Wikidata15K with backward knowledge transfer to improve the performance on DBpedia15K.
+`Step3` Train the model on Wikidata15K with backward data fusion to improve the performance on DBpedia15K.
 > python train.py --model_path MODEL_PATH2 --kg1 Wikidata15K --kg0 DBpedia15K --embedding_lr 1e-3 --adapter_lr 1e-4 --back_transfer --epoch 10
 
-`Step4` Train the model on YAGO15K with forward knowledge transfer from Wikidata15K.
+`Step4` Train the model on YAGO15K with forward data fusion from Wikidata15K.
 > python train.py --model_path MODEL_PATH2 --kg1 Yago15K --kg0 Wikidata15K --embedding_lr 2e-3 --adapter_lr 1e-3 --alpha 1e4 --epoch 20
 
-`Step5` Train the model on YAGO15K with backward knowledge transfer to improve the performance on Wikidata15K.
+`Step5` Train the model on YAGO15K with backward data fusion to improve the performance on Wikidata15K.
 > python train.py --model_path MODEL_PATH4 --kg1 Yago15K --kg0 Wikidata15K --embedding_lr 5e-4 --adapter_lr 1e-4 --back_transfer --epoch 10 
 
+## Running CFW
+We denote the paths for best models saved in `Step{K}` as `MODEL_PATH{K}`.
+We set the `adapter_hidden_size` to 128, 'ea_t` to 0.999, `batch_size` to 512, `early_stop` to 5, `max_seq_length` to 64, and 'label_smoothing' to 0.8.
+
+`Step1` Train the model on CoDEx-M without knowledge transfer.
+> python train.py --kg1 CoDEx-M --embedding_lr 2e-3 --adapter_lr 1e-3 --epoch 20
+
+`Step2` Train the model on FB15K237-N with forward data fusion from CoDEx-M.
+> python train.py --model_path MODEL_PATH1 --kg1 FB15K237-N --kg0 CoDEx-M --embedding_lr 1e-3 --adapter_lr 2e-3 --alpha 1e4 --epoch 20
+
+`Step3` Train the model on FB15K237-N with backward data fusion to improve the performance on CoDEx-M.
+> python train.py --model_path MODEL_PATH2 --kg1 FB15K237-N --kg0 CoDEx-M --embedding_lr 5e-5 --adapter_lr 1e-5 --back_transfer --epoch 10
+
+`Step4` Train the model on Wiki27K with forward data fusion from FB15K237-N.
+> python train.py --model_path MODEL_PATH2 --kg1 Wiki27K --kg0 Wikidata15K --embedding_lr 2e-3 --adapter_lr 1e-3 --alpha 1e4 --epoch 30
+
+`Step5` Train the model on YAGO15K with backward data fusion to improve the performance on FB15K237-N.
+> python train.py --model_path MODEL_PATH4 --kg1 Wiki27K --kg0 Wikidata15K --embedding_lr 5e-5 --adapter_lr 1e-5 --back_transfer --epoch 10 
